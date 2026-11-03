@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Selector Detective</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+  <section id="cases">
+    <h3>Cases <button type="button" id="reset" class="clear-btn">Rebuild party</button></h3>
+    <div class="case-grid"></div>
+    <div id="result"></div>
+  </section>
+
+  <div class="house-roof">
+    <div class="chimney"></div>
+    <div class="roof-body">
+      <div class="roof-window"></div>
+      <div class="roof-plaque">The Party, 19:30 – 22:30</div>
+    </div>
+    <div class="eave"></div>
+  </div>
+
+  <div id="house"></div>
+
+  <div id="ground">
+    <div class="grass"></div>
+    <div class="soil"><div id="legend"></div></div>
+  </div>
+</div>
+  <script src="lib/jquery.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/page.js"></script>
+  <script src="js/cases.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
